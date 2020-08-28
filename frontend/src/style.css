@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #2199df;
+    text-decoration: unset;
+}
+
+ul {
+    margin-left: 1.5rem;
+    list-style: none;
+}
+
+button,
+input[type="submit"]{
+    border: none;
+    background: none;
+    color: unset;
+    cursor: pointer;
+}
+
+h1,  h3, h4, h5, h6, p, ul, ol{
+    margin: 1em 0;
+}
+
+
+/* Header */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 206, 158);
+    align-items: center;
+}
+
+.siteTitle{
+    margin: .5rem;
+}
+
+.authOptions{
+
+}
+
+.authOptions button{
+    padding: 0.8rem 1rem;
+    background-color:  rgb(241, 180, 104);
+}
+
+.authOptions button:hover {
+    background-color:  rgb(167, 107, 33);
+}
+
+
+/* register page */
+.registerPage{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2199df;
+    
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* loginPage */
+.loginPage{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2199df;
+    
+}
+
+
+.loginList li{
+margin-bottom: 1rem;
+}
+
+.loginForm{
+    display: flex;
+}
+
+.loginButton{
+    background-color: rgb(241, 180, 104);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    
+}
+
+.loginButton:hover{
+    background-color:  rgb(193, 124, 40);
+}
+
+.loginForm input{
+    
+}
+
+/* errorNotice */
+
+.error-notice{
+    background-color: rgb(247, 167, 167);
+    padding: 0.4rem;
+    border: 0.1rem rgb(250, 10, 10) solid;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-notice button{
+    color: white;
+    background-color: red;
+    padding: 0.4rem;
+    
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    /* font-weight:600; */
+}
+
+.error-notice button:hover{
+    background-color:rgb(150, 13, 13);
+}
+
